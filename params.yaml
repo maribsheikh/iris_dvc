@@ -1,5 +1,12 @@
 split:
   test_size: 0.2
+  random_state: 42
+
+prepare:
+  split: 0.2
+  seed: 42
+
 train:
+  random_state: 42
   n_estimators: 100
-  random_stte: 42
+  max_depth: 3
